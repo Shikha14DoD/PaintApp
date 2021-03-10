@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="PaintApp.css">
+</head>
+
+<body>
+
+    <script src="PaintApp.css"></script>
+    
+    <!-- write your HTML here-->
+
+   <div class="wall-contanier">
+   <div  value="1" class="wall" id="1">1</div>
+   <div  value="2" class="wall" id="2">2</div>
+   <div  value="3" class="wall" id="3">3</div>
+   <div  value="4" class="wall" id="4">4</div>
+   <div  value="5" class="wall" id="5">5</div> 
+   <div value="6" class="wall" id="6">6</div>
+   <div value="7" class="wall" id="7">7</div>
+   <div value="8" class="wall" id="8">8</div>
+   <div value="9" class="wall" id="9">9</div>
+   </div>
+   
+   <div id="input">
+   <label for="block_id" >Block ID:</label>
+   <input type="number" id="block_id" maxlength=1 min="1" max="9"></input>
+   
+   <label for="colour_id">colour</label>
+   <input type="color" id="colour_id"></input>
+   </div>
+   <br>
+   <br>
+   
+   <div id="button">
+   <button id="change_button" onclick="apply()">colour</button>
+   <button id="reset_button" onclick="reset()">reset</button>
+   </div>
+   
+   
+
+
+    
+
+</body>

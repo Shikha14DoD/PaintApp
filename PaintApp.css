@@ -1,0 +1,20 @@
+/*write your css*/
+
+.wall-contanier{
+  display: grid;
+  border: 1px solid rgb(72, 59, 59) ;
+  grid-template-columns: repeat(9, auto);
+  grid-gap: 20px;  
+  padding: 10px;
+}
+.wall{
+  display: grid;
+  height: 100px;
+  border:2px solid rgb(149, 145, 145);
+  text-align: center;
+}
+
+#input{
+
+  margin-top: 20px;
+}
